@@ -21,3 +21,13 @@ How do the diagrams help you visualize the branch structure?
 
 I can see which commit is the parent of a given commit, find untraceable commits and get an an overview about
 the full structure of the repository.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+You are back to one branch. Similar parts from both branches are taken for this. In case of differences between the 
+two branches, the last version before the branch was introduced is compared as well to decide which version to take.
+In the diagram you can see two parallel paths.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+Pro: less work, faster. Con: less overview what is actually merged. 
